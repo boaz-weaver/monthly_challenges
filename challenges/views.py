@@ -15,7 +15,7 @@ monthly_challenges = {
     "september": "Learn django for 20 minutes!",
     "october": "Eat no meat the entire month!",
     "november": "Walk for at least 30 minutes every day!",
-    "december": "Learn django for 20 minutes!"
+    "december": None
 }
 
 
@@ -28,11 +28,6 @@ def index(request):
     return render(request, "challenges/index.html", {
         "months": months
     })
-
-
-
-
-
 
 
 # Old Index
